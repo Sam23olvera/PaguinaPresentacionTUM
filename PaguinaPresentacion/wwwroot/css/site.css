@@ -1,0 +1,156 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #007588;
+}
+    .navbar seccion:hover{
+        color: white;
+        cursor: pointer;
+        background-color: #5c8b91;
+    }
+
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 1rem;
+    }
+
+.cuerpo {
+    padding: 6rem;
+}
+
+.card-footer {
+    background-color: #007588;
+    color: white;
+    padding: 2rem 0;
+}
+
+    .card-footer .container img {
+        margin-bottom: 1rem;
+    }
+
+.footer {
+    background-color: #007588;
+    color: white;
+}
+
+.elementor-social-icons-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.elementor-icon {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+    .elementor-icon:hover {
+        color: #00aaff;
+    }
+
+.contact {
+    background-color: #007588;
+    color: white;
+}
+
+.form-contact {
+    /*background-color: #007588;*/
+    background-color: #039eb2;
+    color: white;
+    /*border: 2px solid #007588;*/
+    border: 2px solid #039eb2;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.form-input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: #039eb2;
+    color: #fff;
+}
+
+    .form-input::placeholder {
+        color: #fff;
+    }
+
+.form-contact textarea {
+    /*background: linear-gradient(to bottom, #007588 0%, #3b8894 100%);*/
+    background: #039eb2;
+}
+.Servico {
+    padding: 7rem;
+}
+    .Servico h2 {
+        text-align: center;
+        text-size-adjust: inherit;
+    }
+
+.Galeria {
+    padding: 7rem;
+}
+
+    .Galeria h2 {
+        text-align: center;
+        text-size-adjust: inherit;
+    }
+
+.Galrow {
+    text-align: center;
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.Galcolumn {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+    .Galcolumn img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+@media screen and (max-width: 800px) {
+    .Galcolumn {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .Galcolumn {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}

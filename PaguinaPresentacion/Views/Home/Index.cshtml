@@ -1,0 +1,86 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div id="carouselExampleFade" class="carousel carousel-fade slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="~/imag/chofer1.jpg" class="w-100" alt="Camiones">
+            <div class="carousel-caption d-none ">
+                <h5>Camiones</h5>
+                <p>Descripción de los camiones.</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="~/imag/chofer2.jpg" class="w-100" alt="Operador">
+            <div class="carousel-caption d-none ">
+                <h5>Operador</h5>
+                <p>Entrenando a Operadores.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="container mt-4 mis-vis">
+    <div class="row">
+        <div class="col-md-6 text-center justify-content-center">
+            <h2>MISIÓN</h2>
+            <p>
+                "Ser una organización dinámica y flexible, enfocada al cliente, con una estructura habilitada
+                por el más alto nivel de tecnología y capital humano en la industria, ofreciendo el mejor costo-beneficio a través
+                de la mejora continua, buscando generar rentabilidad para la comunidad TUM".
+            </p>
+        </div>
+        <div class="col-md-6 text-center justify-content-center">
+            <h2>VISIÓN</h2>
+            <p>
+                "Ser líder a nivel nacional en el sector de Transporte y Logística con reconocimiento internacional".
+            </p>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="card" style="width: 18rem;">
+                    <img src="~/imag/julio.png" class="card-img-top" alt="julio">
+                    <div class="card-body">
+                        <h5 class="card-title">Dia del Auto cuidado</h5>
+                        <p class="card-text">Dia Internacional del Auto Cuidado.</p>
+                        <a href="#" class="btn btn-light">Ver mas informcion</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card" style="width: 18rem;">
+                    <img src="~/imag/julio2.png" class="card-img-top" alt="julio2">
+                    <div class="card-body">
+                        <h5 class="card-title">Recomendacion del uso del celular</h5>
+                        <p class="card-text">Adoptar estas sencillas practicas nos ayudan a tener una Vida mas sana.</p>
+                        <a href="#" class="btn btn-light">Ver mas informcion</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card" style="width: 18rem;">
+                    <img src="~/imag/julio3.png" class="card-img-top" alt="julio3">
+                    <div class="card-body">
+                        <h5 class="card-title">Dia Internacional del Ingeniero</h5>
+                        <p class="card-text">Es importante reconocer y valorar la labor....</p>
+                        <a href="#" class="btn btn-light">Ver mas informcion</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
